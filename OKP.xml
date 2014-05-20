@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templateSet group="source">
+    <template name="source" value="&lt;!DOCTYPE html&gt;&#10;&lt;!--[if IE 8]&gt;         &lt;html class=&quot;ie8&quot;&gt; &lt;![endif]--&gt;&#10;&lt;!--[if IE 9]&gt;         &lt;html class=&quot;ie9&quot;&gt; &lt;![endif]--&gt;&#10;&lt;!--[if gt IE 9]&gt;&lt;!--&gt; &lt;html&gt; &lt;!--&lt;![endif]--&gt;&#10;&lt;head&gt;&#10;    &lt;meta charset=&quot;UTF-8&quot;&gt;&#10;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=10&quot;&gt;&#10;    &lt;title&gt;$TITLE$&lt;/title&gt;&#10;&#10;    &lt;meta name=&quot;author&quot; content=&quot;$AUTHOR$&quot;&gt;&#10;&#10;    &lt;!-- Project styles --&gt;&#10;        &lt;link href=&quot;/data/res/css/portal.css&quot; rel=&quot;stylesheet&quot;&gt;&#10;    &lt;!-- /Project styles --&gt;&#10;&#10;    &lt;!-- Source default resources --&gt;&#10;        &lt;link href=&quot;/core/css/core.css&quot; rel=&quot;stylesheet&quot;&gt;&#10;&#10;        &lt;!--[if lt IE 9]&gt;&lt;script src=&quot;/core/js/lib/html5shiv.js&quot;&gt;&lt;/script&gt;&lt;![endif]--&gt;&#10;        &lt;script data-main=&quot;/core/js/source&quot; src=&quot;/core/js/lib/require-jquery.js&quot;&gt;&lt;/script&gt;&#10;    &lt;!-- /Source default resources --&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;    &lt;div class=&quot;source_container&quot;&gt;&lt;div class=&quot;source_main source_col-main&quot; role=&quot;main&quot;&gt;&#10;&#10;        &lt;h1&gt;$TITLE$&lt;/h1&gt;&#10;&#10;        &lt;div class=&quot;source_info&quot;&gt;&#10;            $DESCR$&#10;        &lt;/div&gt;&#10;&#10;        &lt;div class=&quot;source_warn&quot;&gt;&#10;            Опасно! Текст для привлечения внимания.&#10;        &lt;/div&gt;&#10;        &#10;        &lt;div class=&quot;source_doc&quot;&gt;&#10;            .source_doc&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;source_note&quot;&gt;&#10;            .source_note&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;source_data&quot;&gt;&#10;            .source_data&#10;        &lt;/div&gt;&#10;        &#10;        &lt;a class=&quot;source_a_s&quot; href=&quot;#777&quot;&gt;Ссылка на сферическую документацию&lt;/a&gt;&#10;        &lt;a class=&quot;source_a_d&quot; href=&quot;#777&quot;&gt;Ссылка на дизайнерскую документацию&lt;/a&gt;&#10;&#10;        &lt;div class=&quot;source_section&quot;&gt;&#10;            &lt;h2&gt;Заголовок секции&lt;/h2&gt;&#10;&#10;            &lt;p&gt;Описание содержимого секции, с выделением CSS &lt;code class=&quot;source_class&quot;&gt;.class&lt;/code&gt;'ов, а так же любая другая полезная информация.&lt;/p&gt;&#10;&#10;            &lt;div class=&quot;source_example&quot;&gt;&#10;&#10;            &lt;/div&gt;&#10;&#10;            &lt;h3&gt;Подзаголовок секции&lt;/h3&gt;&#10;&#10;            &lt;div class=&quot;source_example&quot;&gt;&#10;                $END$&#10;            &lt;/div&gt;&#10;&#10;        &lt;/div&gt;&#10;&#10;    &lt;/div&gt;&lt;/div&gt;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" shortcut="ENTER" description="source starting HTML" toReformat="false" toShortenFQNames="false">
+        <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="AUTHOR" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="DESCR" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sec" value="&lt;div class=&quot;source_section&quot;&gt;&#10;    &lt;h2&gt;$NAME$&lt;/h2&gt;&#10;    $END$&#10;&lt;/div&gt;" description="&lt;div class=&quot;demo-section&quot;&gt;&lt;h2&gt;...&lt;/h2&gt;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="cdc" value="&lt;code class=&quot;source_class&quot;&gt;$CODE$&lt;/code&gt;$END$" description="code.demo-class" toReformat="false" toShortenFQNames="true">
+        <variable name="CODE" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sex2" value="&lt;h3&gt;$NAME$&lt;/h3&gt;&#10;&lt;div class=&quot;source_example source_example__2&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example 215" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sex3" value="&lt;h3&gt;$NAME$&lt;/h3&gt;&#10;&lt;div class=&quot;source_example source_example__3&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example 730" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sex4" value="&lt;h3&gt;$NAME$&lt;/h3&gt;&#10;&lt;div class=&quot;source_example source_example__4&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example 980" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sex5" value="&lt;h3&gt;$NAME$&lt;/h3&gt;&#10;&lt;div class=&quot;source_example source_example__5&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example 1200" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="warn" value="&lt;div class=&quot;source_warn&quot;&gt;$END$&lt;/div&gt;&#10;" description="demo warning / attention" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="info" value="&lt;div class=&quot;source_info&quot;&gt;$END$&lt;/div&gt;&#10;" description="info text" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="data" value="&lt;pre class=&quot;source_data&quot;&gt;$END$&lt;/pre&gt;" description="data text" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="doc" value="&lt;div class=&quot;source_doc&quot;&gt;$END$&lt;/div&gt;&#10;&#10;" description="doc text" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="note" value="&lt;div class=&quot;source_note&quot;&gt;$END$&lt;/div&gt;&#10;" description="note text" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sas" value="&lt;a class=&quot;source_a_s&quot; href=&quot;$HREF$&quot;&gt;$END$&lt;/a&gt;&#10;" description="Link to specification" toReformat="false" toShortenFQNames="true">
+        <variable name="HREF" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sad" value="&lt;a class=&quot;source_a_d&quot; href=&quot;$HREF$&quot;&gt;$END$&lt;/a&gt;&#10;" description="Link to design specification" toReformat="false" toShortenFQNames="true">
+        <variable name="HREF" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sex" value="&lt;div class=&quot;source_example&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example default 500" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sex2" value="&lt;h3&gt;$NAME$&lt;/h3&gt;&#10;&lt;div class=&quot;source_example source_example__2&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example 215" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sex3" value="&lt;h3&gt;$NAME$&lt;/h3&gt;&#10;&lt;div class=&quot;source_example source_example__3&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example 730" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sex4" value="&lt;h3&gt;$NAME$&lt;/h3&gt;&#10;&lt;div class=&quot;source_example source_example__4&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example 980" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sex5" value="&lt;h3&gt;$NAME$&lt;/h3&gt;&#10;&lt;div class=&quot;source_example source_example__5&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example 1200" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sexa" value="&lt;h3&gt;$NAME$&lt;/h3&gt;&#10;&lt;div class=&quot;source_example source_example__auto&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example auto" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sexp" value="&lt;h3&gt;$NAME$&lt;/h3&gt;&#10;&lt;div class=&quot;source_example source_example__p&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example project" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="sexf" value="&lt;h3&gt;$NAME$&lt;/h3&gt;&#10;&lt;div class=&quot;source_example source_example__full&quot;&gt;&#10;    $END$&#10;&lt;/div&gt;" description="demo example full" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+</templateSet>
