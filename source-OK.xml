@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="source-OK">
+    <template name="ch1" value="/* $VAR0$&#10;---------------------------------------------------------------------------------- */&#10;&#10;$END$&#10;&#10;/* /$VAR0$&#10;---------------------------------------------------------------------------------- */" description="/* CSS H1 ---------------------------------------------------------------------------------- */" toReformat="false" toShortenFQNames="true">
+        <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="true" />
+            <option name="CSS_DECLARATION_BLOCK" value="true" />
+            <option name="CSS_RULESET_LIST" value="true" />
+            <option name="CSS" value="true" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="ch2" value="/* $VAR0$&#10;-------------------------------------------------- */&#10;&#10;$END$&#10;&#10;/* /$VAR0$ */" description="/* CSS H2 -------------------------------------------------- */" toReformat="false" toShortenFQNames="true">
+        <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="true" />
+            <option name="CSS_DECLARATION_BLOCK" value="true" />
+            <option name="CSS_RULESET_LIST" value="true" />
+            <option name="CSS" value="true" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="ch3" value="/* $VAR0$ */&#10;&#10;$END$&#10;&#10;/* /$VAR0$ */" description="/* CSS H3 */" toReformat="false" toShortenFQNames="true">
+        <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="true" />
+            <option name="CSS_DECLARATION_BLOCK" value="true" />
+            <option name="CSS_RULESET_LIST" value="true" />
+            <option name="CSS" value="true" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="ch4" value="/* $TEXT$ */$END$" description="/* CSS H4 */" toReformat="false" toShortenFQNames="true">
+        <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="true" />
+            <option name="CSS_DECLARATION_BLOCK" value="true" />
+            <option name="CSS_RULESET_LIST" value="true" />
+            <option name="CSS" value="true" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="hc1" value="&lt;!-- &#10;    $TEXT$ &#10;--&gt;&#10;&#10;$END$&#10;&#10;&lt;!-- &#10;    /$TEXT$ &#10;--&gt;" description="HTML comment 1 level" toReformat="false" toShortenFQNames="true">
+        <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="JSP" value="false" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="false" />
+            <option name="JAVA_CODE" value="false" />
+            <option name="JAVA_STATEMENT" value="false" />
+            <option name="JAVA_EXPRESSION" value="false" />
+            <option name="JAVA_DECLARATION" value="false" />
+            <option name="JAVA_COMMENT" value="false" />
+            <option name="JAVA_STRING" value="false" />
+            <option name="COMPLETION" value="false" />
+            <option name="SQL" value="false" />
+            <option name="OGNL" value="false" />
+            <option name="PHP" value="false" />
+        </context>
+    </template>
+    <template name="hc2" value="&lt;!-- $TEXT$ --&gt;&#10;&#10;$END$&#10;&#10;&lt;!-- /$TEXT$ --&gt;" description="HTML comment 2 level" toReformat="false" toShortenFQNames="true">
+        <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="JSP" value="false" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="false" />
+            <option name="JAVA_CODE" value="false" />
+            <option name="JAVA_STATEMENT" value="false" />
+            <option name="JAVA_EXPRESSION" value="false" />
+            <option name="JAVA_DECLARATION" value="false" />
+            <option name="JAVA_COMMENT" value="false" />
+            <option name="JAVA_STRING" value="false" />
+            <option name="COMPLETION" value="false" />
+            <option name="SQL" value="false" />
+            <option name="OGNL" value="false" />
+            <option name="PHP" value="false" />
+        </context>
+    </template>
+    <template name="hc3" value="&lt;!-- $TEXT$ --&gt;$END$&lt;!-- /$TEXT$ --&gt;" description="HTML comment 3 level" toReformat="false" toShortenFQNames="true">
+        <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="JSP" value="false" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="false" />
+            <option name="JAVA_CODE" value="false" />
+            <option name="JAVA_STATEMENT" value="false" />
+            <option name="JAVA_EXPRESSION" value="false" />
+            <option name="JAVA_DECLARATION" value="false" />
+            <option name="JAVA_COMMENT" value="false" />
+            <option name="JAVA_STRING" value="false" />
+            <option name="COMPLETION" value="false" />
+            <option name="SQL" value="false" />
+            <option name="OGNL" value="false" />
+            <option name="PHP" value="false" />
+        </context>
+    </template>
+    <template name="hc4" value="&lt;!-- $TEXT$ --&gt;$END$" description="HTML comment 4 level" toReformat="false" toShortenFQNames="true">
+        <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="JSP" value="false" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="false" />
+            <option name="JAVA_CODE" value="false" />
+            <option name="JAVA_STATEMENT" value="false" />
+            <option name="JAVA_EXPRESSION" value="false" />
+            <option name="JAVA_DECLARATION" value="false" />
+            <option name="JAVA_COMMENT" value="false" />
+            <option name="JAVA_STRING" value="false" />
+            <option name="COMPLETION" value="false" />
+            <option name="SQL" value="false" />
+            <option name="OGNL" value="false" />
+            <option name="PHP" value="false" />
+        </context>
+    </template>
+    <template name="jc1" value="/* &#10; * $TEXT$ &#10; * &#10; * $END$ &#10; * */" description="JS comment 1 level" toReformat="false" toShortenFQNames="true">
+        <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JSP" value="false" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="false" />
+            <option name="JAVA_CODE" value="false" />
+            <option name="JAVA_STATEMENT" value="false" />
+            <option name="JAVA_EXPRESSION" value="false" />
+            <option name="JAVA_DECLARATION" value="false" />
+            <option name="JAVA_COMMENT" value="false" />
+            <option name="JAVA_STRING" value="false" />
+            <option name="COMPLETION" value="false" />
+            <option name="SQL" value="false" />
+            <option name="OGNL" value="false" />
+            <option name="PHP" value="false" />
+        </context>
+    </template>
+    <template name="jc2" value="//&#10;// $TEXT$&#10;// " description="JS comment 2 level" toReformat="false" toShortenFQNames="true">
+        <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JSP" value="false" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="false" />
+            <option name="JAVA_CODE" value="false" />
+            <option name="JAVA_STATEMENT" value="false" />
+            <option name="JAVA_EXPRESSION" value="false" />
+            <option name="JAVA_DECLARATION" value="false" />
+            <option name="JAVA_COMMENT" value="false" />
+            <option name="JAVA_STRING" value="false" />
+            <option name="COMPLETION" value="false" />
+            <option name="SQL" value="false" />
+            <option name="OGNL" value="false" />
+            <option name="PHP" value="false" />
+        </context>
+    </template>
+    <template name="jc3" value="//&#10;// $TEXT$" description="JS comment 3 level" toReformat="false" toShortenFQNames="true">
+        <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JSP" value="false" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="false" />
+            <option name="JAVA_CODE" value="false" />
+            <option name="JAVA_STATEMENT" value="false" />
+            <option name="JAVA_EXPRESSION" value="false" />
+            <option name="JAVA_DECLARATION" value="false" />
+            <option name="JAVA_COMMENT" value="false" />
+            <option name="JAVA_STRING" value="false" />
+            <option name="COMPLETION" value="false" />
+            <option name="SQL" value="false" />
+            <option name="OGNL" value="false" />
+            <option name="PHP" value="false" />
+        </context>
+    </template>
+    <template name="jc4" value="/* $TEXT$  */" description="JS comment 4 level" toReformat="false" toShortenFQNames="true">
+        <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="true" />
+            <option name="JSP" value="false" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="false" />
+            <option name="JAVA_CODE" value="false" />
+            <option name="JAVA_STATEMENT" value="false" />
+            <option name="JAVA_EXPRESSION" value="false" />
+            <option name="JAVA_DECLARATION" value="false" />
+            <option name="JAVA_COMMENT" value="false" />
+            <option name="JAVA_STRING" value="false" />
+            <option name="COMPLETION" value="false" />
+            <option name="SQL" value="false" />
+            <option name="OGNL" value="false" />
+            <option name="PHP" value="false" />
+        </context>
+    </template>
+    <template name="tpltr" value="&lt;script type=&quot;text/javascript&quot;&gt;&#10;    require(['/plugins/mustache/mst.js'], function(mst){&#10;    &#10;        mst.base = {&#10;            &#10;        };&#10;    &#10;        //mst.insert('$TPL$');&#10;    &#10;    });&#10;&lt;/script&gt;&#10;&#10;&lt;!--&#10;&lt;br class=&quot;mst-$TPL$&quot;&gt;&#10;--&gt;&#10;$END$" description="templater start kit" toReformat="false" toShortenFQNames="true">
+        <variable name="TPL" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="rdk" value="&lt;script type=&quot;text/javascript&quot;&gt;&#10;require(['/plugins/rdk/rdk.js'], function(rdk){&#10;&#10;    var log = function(){&#10;        console.log('templates complete');&#10;    };&#10;&#10;    rdk.base = {&#10;&#10;    };&#10;    &#10;    // var myData = {};&#10;    // rdk.base = $.extend({}, myData, rdk.base);&#10;&#10;    rdk.printData();&#10;&#10;    // ========================================&#10;&#10;    //&#10;    // $TPLNAME$&#10;&#10;    rdk.insert('$TPLNAME$', function(){&#10;        // rdk.replaceInner('', '');&#10;        // rdk.runInnerFunctions([testMe], 0, log);&#10;    });&#10;&#10;    // ========================================&#10;&#10;    function testMe(){&#10;        var _this = this;&#10;        return function(ctx){&#10;&#10;&#10;        }(_this);&#10;    }&#10;&#10;    window.testMe = function(){testMe.call($(window))};&#10;&#10;});&#10;&lt;/script&gt;&#10;&#10;&lt;!--&#10;&lt;br class=&quot;rdk-$TPLNAME$&quot;&gt;&#10;--&gt;" description="RDK starter kit" toReformat="false" toShortenFQNames="true">
+        <variable name="TPLNAME" expression="&quot;myTemplate&quot;" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="au" value="/**&#10;* author:       $NAME$ | skype : $SKYPE$&#10;* spec:         $SPEC$&#10;* created:      $DATE$&#10;* &#10;$CMNT$&#10;* @project class:   $KLASS$&#10;* @project colors:  $COLORS$&#10;**/&#10;$END$" description="author comment" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="SKYPE" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="SPEC" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+        <variable name="CMNT" expression="&quot;* comments: &quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="KLASS" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="COLORS" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="true" />
+            <option name="CSS_DECLARATION_BLOCK" value="true" />
+            <option name="CSS_RULESET_LIST" value="true" />
+            <option name="CSS" value="true" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="todo" value="/*&#10;    todo: $TODO$&#10;*/&#10;$END$" description="TODO CSS comment" toReformat="false" toShortenFQNames="true">
+        <variable name="TODO" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="true" />
+            <option name="CSS_DECLARATION_BLOCK" value="true" />
+            <option name="CSS_RULESET_LIST" value="true" />
+            <option name="CSS" value="true" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="todo" value="&lt;!--&#10; TODO: $TODO$ &#10; --&gt;" description="todo comment" toReformat="false" toShortenFQNames="true">
+        <variable name="TODO" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="JSP" value="false" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="false" />
+            <option name="JAVA_CODE" value="false" />
+            <option name="JAVA_STATEMENT" value="false" />
+            <option name="JAVA_EXPRESSION" value="false" />
+            <option name="JAVA_DECLARATION" value="false" />
+            <option name="JAVA_COMMENT" value="false" />
+            <option name="JAVA_STRING" value="false" />
+            <option name="COMPLETION" value="false" />
+            <option name="SQL" value="false" />
+            <option name="OGNL" value="false" />
+            <option name="PHP" value="false" />
+        </context>
+    </template>
+    <template name="cc" value="/* cleancheck */" description="clean check comment" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="true" />
+            <option name="CSS_DECLARATION_BLOCK" value="true" />
+            <option name="CSS_RULESET_LIST" value="true" />
+            <option name="CSS" value="true" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+    <template name="ref" value="/*&#10;    TODO: refactor $NAME$&#10;*/&#10;$END$&#10;/* /$NAME$ */" description="Refactor comment" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="false" />
+            <option name="HTML" value="false" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="true" />
+            <option name="CSS_DECLARATION_BLOCK" value="true" />
+            <option name="CSS_RULESET_LIST" value="true" />
+            <option name="CSS" value="true" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="DART" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="HAML" value="false" />
+            <option name="JADE" value="false" />
+            <option name="OTHER" value="false" />
+        </context>
+    </template>
+</templateSet>
+
