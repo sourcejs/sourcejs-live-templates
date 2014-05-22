@@ -5,11 +5,11 @@ Live templates for WebStorm / Idea. Accelerate and simplify the development of s
 ## Includes
 
 * source.xml - basic set of templates.
-* source-OK.xml - set of templates for OK code styles.
+* source-auxiliary.xml - set of templates for Odnoklassniki code styles.
 
 ### source.xml
 <table>
-		<tr>
+    	<tr>
 			<td>source</td>
 			<td>source starting template</td>
 		</tr>
@@ -142,13 +142,19 @@ Live templates for WebStorm / Idea. Accelerate and simplify the development of s
 
 ## How to use
 
-Just copy need files to templates directory and then restart IDE.
+1. Just copy need files to templates directory and then restart IDE.
 
-Templates directory on Windows:
+    Templates directory on Windows:
+    
+    	username//.WebIdeXX/config/templates/
+    OS X:
+    
+    	~/Library/Preferences/IntelliJIdeaXX/templates
 
-	username//.WebIdeXX/config/templates/
-OS X:
+    <br>
+    
+2. Make for each file symlinks:
 
-	~/Library/Preferences/IntelliJIdeaXX/templates
+	    ln -s source.xml ~/Library/Preferences/IntelliJIdeaXX/templates
 
-(c) Odnoklassniki front-end team
+### (c) Odnoklassniki front-end team
