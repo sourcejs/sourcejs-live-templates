@@ -12,6 +12,7 @@
             <option name="CSS_DECLARATION_BLOCK" value="true" />
             <option name="CSS_RULESET_LIST" value="true" />
             <option name="CSS" value="true" />
+            <option name="STYLUS" value="true" />
             <option name="JAVA_SCRIPT" value="false" />
             <option name="DART" value="false" />
             <option name="CoffeeScript" value="false" />
@@ -32,6 +33,7 @@
             <option name="CSS_DECLARATION_BLOCK" value="true" />
             <option name="CSS_RULESET_LIST" value="true" />
             <option name="CSS" value="true" />
+            <option name="STYLUS" value="true" />
             <option name="JAVA_SCRIPT" value="false" />
             <option name="DART" value="false" />
             <option name="CoffeeScript" value="false" />
@@ -52,6 +54,7 @@
             <option name="CSS_DECLARATION_BLOCK" value="true" />
             <option name="CSS_RULESET_LIST" value="true" />
             <option name="CSS" value="true" />
+            <option name="STYLUS" value="true" />
             <option name="JAVA_SCRIPT" value="false" />
             <option name="DART" value="false" />
             <option name="CoffeeScript" value="false" />
@@ -72,6 +75,7 @@
             <option name="CSS_DECLARATION_BLOCK" value="true" />
             <option name="CSS_RULESET_LIST" value="true" />
             <option name="CSS" value="true" />
+            <option name="STYLUS" value="true" />
             <option name="JAVA_SCRIPT" value="false" />
             <option name="DART" value="false" />
             <option name="CoffeeScript" value="false" />
@@ -331,6 +335,7 @@
             <option name="CSS_DECLARATION_BLOCK" value="true" />
             <option name="CSS_RULESET_LIST" value="true" />
             <option name="CSS" value="true" />
+            <option name="STYLUS" value="true" />
             <option name="JAVA_SCRIPT" value="false" />
             <option name="DART" value="false" />
             <option name="CoffeeScript" value="false" />
@@ -351,6 +356,7 @@
             <option name="CSS_DECLARATION_BLOCK" value="true" />
             <option name="CSS_RULESET_LIST" value="true" />
             <option name="CSS" value="true" />
+            <option name="STYLUS" value="true" />
             <option name="JAVA_SCRIPT" value="false" />
             <option name="DART" value="false" />
             <option name="CoffeeScript" value="false" />
@@ -394,6 +400,7 @@
             <option name="CSS_DECLARATION_BLOCK" value="true" />
             <option name="CSS_RULESET_LIST" value="true" />
             <option name="CSS" value="true" />
+            <option name="STYLUS" value="true" />
             <option name="JAVA_SCRIPT" value="false" />
             <option name="DART" value="false" />
             <option name="CoffeeScript" value="false" />
@@ -414,6 +421,7 @@
             <option name="CSS_DECLARATION_BLOCK" value="true" />
             <option name="CSS_RULESET_LIST" value="true" />
             <option name="CSS" value="true" />
+            <option name="STYLUS" value="true" />
             <option name="JAVA_SCRIPT" value="false" />
             <option name="DART" value="false" />
             <option name="CoffeeScript" value="false" />
